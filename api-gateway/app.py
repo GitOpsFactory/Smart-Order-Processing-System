@@ -11,7 +11,7 @@ def health():
 def stock(product):
 
     r = requests.get(
-        f"http://inventory-service:5001/inventory/{product}"
+        f"http://inventory-service:5002/inventory/{product}"
     )
 
     return r.json()
