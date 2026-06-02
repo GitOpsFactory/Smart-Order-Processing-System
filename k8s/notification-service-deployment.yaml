@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: notification-service
-        image: YOUR_DOCKER_USERNAME/notification-service:latest
+        image: bkuslapur/notification-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5003

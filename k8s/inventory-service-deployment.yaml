@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: inventory-service
-        image: YOUR_DOCKER_USERNAME/inventory-service:latest
+        image: bkuslapur/inventory-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5002

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: YOUR_DOCKER_USERNAME/order-service:latest
+        image: bkuslapur/order-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5001
